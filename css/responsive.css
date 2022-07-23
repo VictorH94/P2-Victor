@@ -1,0 +1,27 @@
+/*Format mobile*/
+@media all and (max-width: 568px) {
+    #main-header {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #main-header nav {
+        width: 100%;
+    }
+
+    header li {
+        flex: 1;
+        text-align: center;
+        border-bottom: 2px solid silver;
+    }
+
+    #main-header li:hover {
+        border-top-color: transparent;
+        border-bottom-color: blue;
+    }
+}
+
+/*Format tablette*/
+@media all and (min-width: 569px) and (max-width: 1240px) {
+
+}

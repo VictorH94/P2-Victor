@@ -5,7 +5,7 @@ body {
     font-family: raleway, sans-serif;
 }
 
-#main-header img {
+#main-header img{
     padding: 25px;
     margin: 0px;
     margin-bottom: -20px;
@@ -42,6 +42,11 @@ body {
 
 #main-header li:hover a {
     color: blue;
+}
+
+#main-page-ctnr {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /*Hauteur pour la navigation*/
@@ -82,6 +87,10 @@ body {
     border: none;
 }
 
+#form-filter-search-icon {
+    display: none;
+}
+
 /* Classe de Flexbox*/
 .flexCenter {
     display: flex;
@@ -118,11 +127,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.flexColumn {
-    display: flex;
-    flex-direction: column;
 }
 
 .iconSize {
@@ -204,12 +208,11 @@ body {
 
 #filters-list button {
     background-color: transparent;
-    width: 205px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #filters-result-text {
@@ -245,15 +248,16 @@ body {
 /* BLOC HEBEGEMENTS */
 .hebcards {
     flex: 2;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
     margin-right: 20px;
     border-radius: 10px;
-    padding: 0px 30px;
-    height: 1214px;
+    padding: 0 30px;
 }
 
 .hebcards img {
-    height: 330px;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
@@ -262,27 +266,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -26px;
-    margin-bottom: 26px;
+    margin-top: -20px;
+    margin-bottom: 17px;
     padding: 0;
 }
 
 .blocImgHeb {
-    height: 487px;
+    height: 209px;
     border: 3px solid white;
     border-radius: 15px;
-    margin: 17px 12px;
-    width: 555px;
+    margin: 20px 3px;
+    width: 220px;
     padding: 2px;
     background-color: white;
     box-shadow: 1px 1px 4px silver;
 }
-
 .blocHeb h3 {
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 13px;
     font-size: 18px;
-    margin-bottom: -10px;
+    margin-bottom: -30px;
     color: black;
 }
 
@@ -302,28 +305,23 @@ body {
 
 .blocImgHeb ul {
     padding-left: 10px;
-    padding-top: 10px;
 }
 
 .blocHebandPopu h2 {
-    padding-top: 30px;
-    padding-left: 19px;
+    padding-top: 7px;
 }
 
 .hebcards .affiplus {
     color: black;
     text-decoration: none;
-    padding-left: 12px;
 }
 
 /* BLOC POPULAIRES */
 .popucards {
     flex: 1;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
     border-radius: 10px;
     padding: 0 25px;
-    margin-left: 20px;
-    height: 1214px;
 }
 
 .descripPopuEtoile {
@@ -342,11 +340,11 @@ body {
 }
 
 .blocImgPopu {
-    height: 326px;
+    height: 145px;
     background-color: white;
     padding: 4px;
     border-radius: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 19px;
     width: 95%;
     position: relative;
 }
@@ -354,19 +352,23 @@ body {
 .blocPopu img {
     border-radius: 15px 0 0 15px;
     height: 100%;
-    width: 385px;
+    width: 135px;
     object-fit: cover;
+}
+
+#blocImgPopuLastImg {
+    width: 155px;
 }
 
 .blocImgPopu .descripPopu {
     position: relative;
-    padding: 0px 30px 0 20px;
+    padding: 0 30px 0 10px;
 }
 
 .descripPopu ul {
     position: absolute;
-    bottom: 12px;
-    left: 20px;
+    bottom: 5px;
+    left: 10px;
     padding: 0;
 }
 
@@ -375,11 +377,12 @@ body {
 }
 
 .descripPopu h3 {
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
+
 .descripPopu p {
-    margin-top: 25px;
+    margin-top: -5px;
 }
 
 .blocImgPopu a {
@@ -406,8 +409,9 @@ body {
 
 .activitycards h2 {
     padding-left: 44px;
-    padding-bottom: 2px;
+    padding-bottom: 16px;
 }
+
 
 ul.blocActi {
     display: flex;
@@ -416,9 +420,8 @@ ul.blocActi {
 }
 
 .blocActi li {
-    width: 23%;
-    margin: 0 22px;
-    height: 900px;
+    width: 20%;
+    margin: 0 15px;
 }
 
 .bloc2ImgActi {
@@ -426,19 +429,19 @@ ul.blocActi {
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-.bloc2ImgActi img {
+.bloc2ImgActi img{
     background-position: center;
     width: 100%;
-    height: 815px;
+    height: 400px;
     border-radius: 15px 15px 0 0;
 }
 
 .bloc2ImgActi h3 {
-    height: 24px;
+    height: 70px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 2%;
+    padding-left: 5%;
     width: 95%;
 }
 
@@ -446,47 +449,42 @@ ul.blocActi {
     border: 2px solid #f2f2f2;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 10px 0;
 }
 
-.bloc2ImgActi img {
+.cubeAtivity3456 img {
     background-position: center;
     width: 100%;
-    height: 850px;
     border-radius: 15px 15px 0 0;
 }
 
-.cubeAtivity3456 h3{
-    padding-left: 20px;
-}
-
 .activite-img1 {
-    height: 420px;
+    height: 230px
 }
 
 .activite-img2 {
-    height: 310px;
+    height: 140px
 }
 
 .activite-img3 {
-    height: 340px
+    height: 200px
 }
 
 .activite-img4 {
-    height: 370px
+    height: 165px
 }
 
 /* FOOTER */
-.footer {
-    width: 100%;
-    background-color: #f2f2f2;
-    margin-left: 0px;
-    margin-right: 0px;
+.footer{
+    width: 100%; 
+    background-color: #f2f2f2; 
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .betweenfooter{
     display: flex;
     justify-content: space-between;
-    padding-left: 35px;
 }
 
 .columnfooter{

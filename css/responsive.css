@@ -9,16 +9,139 @@
         width: 100%;
     }
 
-    header li {
+    #main-header li {
         flex: 1;
         text-align: center;
         border-bottom: 2px solid silver;
+        padding-bottom: 10px;
     }
 
     #main-header li:hover {
         border-top-color: transparent;
         border-bottom-color: blue;
     }
+
+    #search-section h2 {
+        font-size: 22px
+    }
+
+    #search-section p {
+        font-size: 16px;
+    }
+
+    #search-with-location-form {
+        margin-top: 30px;
+    }
+
+    #search-with-location-form input {
+        flex: 1;
+    }
+
+    #search-with-location-form button {
+        width: 50px;
+    }
+
+    #form-filter-search-icon {
+        display: block;
+        font-size: 20px;
+    }
+
+    #form-filter-search-txt {
+        display: none;
+    }
+
+    #filters-list ul {
+        margin-right: 0;
+    }
+
+    #filters-list li {
+       margin-bottom: 10px;
+       margin-right: 16px;
+    }
+
+    .infoFather {
+        margin-top: 0;
+    }
+
+    .blocHebandPopu {
+        flex-direction: column-reverse;
+    }
+
+    .popucards {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+
+    .blocHebandPopu h2 {
+       font-size: 20px;
+    }
+
+    .descripPopu h3 {
+        font-size: 15px;
+    }
+
+    .descripPopu p {
+        font-size: 13px;
+    }
+
+    .hebcards {
+        margin-right: 0;
+        background-color: white;
+    }
+
+    .hebcards img {
+        height: 100px;
+    }
+
+    .blocImgHeb {
+        height: auto;
+        width: 100%;
+    }
+
+    .blocHeb h3 {
+        font-size: 15px;
+    }
+
+    .blocHeb p {
+        font-size: 14px;
+    }
+
+    .blocHeb i {
+        font-size: 13px;
+    }
+
+    .activitycards h2 {
+        font-size: 20px;
+    }
+
+    ul.blocActi {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .blocActi li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    .blocActi h3 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .bloc2ImgActi img, .activite-img1, .activite-img2, .activite-img3, .activite-img4 {
+        height: 120px;
+    }
+
+    .bloc2ImgActi h3 {
+        height: auto;
+        padding-left: 10px;
+        width: auto;
+        align-self: flex-start;
+    }
+    
 }
 
 /*Format tablette*/

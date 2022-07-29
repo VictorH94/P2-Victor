@@ -1,14 +1,16 @@
-body {
+* {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: raleway, sans-serif;
 }
 
-#main-header img{
-    padding: 25px;
-    margin: 0px;
-    margin-bottom: -20px;
+body {
+    font-family: raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-ctnr {
+    width: 100%;
+    height: auto;
 }
 
 #main-header {
@@ -61,7 +63,7 @@ body {
     font-size: 28px;
 }
 
-#search-section p{
+#search-section p {
     font-size: 19px;
 }
 
@@ -71,14 +73,14 @@ body {
     margin-bottom: 14px;
 }
 
-#search-with-location-form input{
+#search-with-location-form input {
     border: 0.5px solid #f2f2f2;
     padding-left: 12px;
     font-size: 14px;
     font-weight: bold;
 }
 
-#search-with-location-form button{
+#search-with-location-form button {
     height: 50px;
     width: 120px;
     color: white;
@@ -220,12 +222,10 @@ body {
     font-size: 14px;
 }
 
-#filters-result-text {
+ #filters-result-text {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 20px;
- }
+}
 
 .infoFather {
     width: 20px;
@@ -233,13 +233,10 @@ body {
     border: 2px solid #f2f2f2;
     border-radius: 25px;
     margin-left: -2px;
-    margin-top: -30px;
-    margin-bottom: -24px;
 }
 
 .paraReg {
-    margin-top: -20px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 /* BLOC HEBERGEMENTS ET POPULAIRES */
@@ -286,9 +283,10 @@ body {
     background-color: white;
     box-shadow: 1px 1px 4px silver;
 }
+
 .blocHeb h3 {
     margin-top: 5px;
-    margin-left: 13px;
+    margin-left: 10px;
     font-size: 18px;
     margin-bottom: -30px;
     color: black;
@@ -361,10 +359,6 @@ body {
     object-fit: cover;
 }
 
-#blocImgPopuLastImg {
-    width: 155px;
-}
-
 .blocImgPopu .descripPopu {
     position: relative;
     padding: 0 30px 0 10px;
@@ -414,7 +408,7 @@ body {
 
 .activitycards h2 {
     padding-left: 44px;
-    padding-bottom: 16px;
+    padding-bottom: 2px;
 }
 
 
@@ -437,12 +431,12 @@ ul.blocActi {
 .bloc2ImgActi img{
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 452px;
     border-radius: 15px 15px 0 0;
 }
 
 .bloc2ImgActi h3 {
-    height: 70px;
+    height: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -462,6 +456,11 @@ ul.blocActi {
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
+
+.cubeAtivity3456 h3 {
+    padding-left: 5%;
+}
+
 
 .activite-img1 {
     height: 230px
@@ -485,6 +484,7 @@ ul.blocActi {
     background-color: #f2f2f2; 
     margin-left: 0;
     margin-right: 0;
+    padding-left: 20px;
 }
 
 .betweenfooter {

@@ -161,17 +161,17 @@
     }
 
     .footer {
-        padding: 0 0 20px 20px;
-        margin-top: -25px
+        margin-top: -35px;
+        padding-bottom: 30px;
     }
-
+    
     .betweenfooter {
        display: flex;
        flex-direction: column;
        align-items: flex-start;
     }
 
-    columnfooter h3 {
+    .columnfooter h3 {
        font-weight: bold;
        font-size: 16px;
        margin-top: 35px;
@@ -184,5 +184,82 @@
 }
 /*Format tablette*/
 @media all and (min-width: 569px) and (max-width: 1240px) {
+    .blocHebandPopu {
+        flex-direction: column-reverse;
+        width: 100%;
+        }
 
+    .popucards {
+        flex: none;
+        width: 90%;   
+    }
+    
+    .hebcards {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    
+    .blocHebandPopu h2 {
+    padding-left: 12px;
+    }
+
+    .descripPopuEtoile {
+       padding-right: 13px;
+    }
+
+    .activitycards {
+       max-height: auto;
+    }
+
+    .blocHeb {
+       flex-direction: column;
+    }
+
+    .blocImgHeb {
+        width: 100%;
+        height: auto;
+    }
+
+    .hebcards img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .activitycards {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    ul.blocActi {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .blocActi li {
+        width: 90%;
+        margin: 0;
+    }
+
+    .bloc2ImgActi img {
+        height: 230px;
+    }
+
+    .activite-img1 {
+        height: 230px;
+    }
+
+    .activite-img2 {
+        height: 230px;
+    }
+
+    .activite-img3 {
+        height: 230px;
+    }
+
+    .activite-img4 {
+        height: 230px;
+    }
 }

@@ -161,6 +161,7 @@
     }
 
     .footer {
+        height: auto;
         margin-top: -35px;
         padding-bottom: 30px;
     }
@@ -169,6 +170,7 @@
        display: flex;
        flex-direction: column;
        align-items: flex-start;
+       height: auto;
     }
 
     .columnfooter h3 {
@@ -247,19 +249,7 @@
         height: 230px;
     }
 
-    .activite-img1 {
-        height: 230px;
-    }
-
-    .activite-img2 {
-        height: 230px;
-    }
-
-    .activite-img3 {
-        height: 230px;
-    }
-
-    .activite-img4 {
+    .activite-img1, .activite-img2, .activite-img3, .activite-img4 {
         height: 230px;
     }
 }

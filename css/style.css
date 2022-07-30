@@ -316,7 +316,10 @@ body {
 
 .hebcards .affiplus {
     color: black;
+    font-weight: bold;
     text-decoration: none;
+    position: relative;
+    top: -16px;
 }
 
 /* BLOC POPULAIRES */

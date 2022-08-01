@@ -324,6 +324,7 @@ body {
     text-decoration: none;
     position: relative;
     top: -16px;
+    left: 6px;
 }
 
 /* BLOC POPULAIRES */
@@ -416,7 +417,8 @@ body {
 .activitycards h2 {
     padding-bottom: 0px;
     position: relative;
-    top: 8px;
+    top: 7px;
+    left: 2px;
 }
 
 ul.blocActi {

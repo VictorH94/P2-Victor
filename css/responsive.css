@@ -1,265 +1,260 @@
 /*Format mobile*/
+
 @media all and (max-width: 568px) {
     #main-header {
         flex-direction: column;
         padding: 0;
     }
-
     #main-header nav {
         width: 100%;
     }
-
     #main-header li {
         flex: 1;
         text-align: center;
         border-bottom: 2px solid silver;
         padding-bottom: 10px;
     }
-
     #main-header li:hover {
         border-top-color: transparent;
         border-bottom-color: blue;
     }
-
     #search-section h2 {
         font-size: 22px
     }
-
     #search-section p {
         font-size: 16px;
     }
-
     #search-with-location-form {
         margin-top: 30px;
     }
-
     #search-with-location-form input {
         flex: 1;
     }
-
     #search-with-location-form button {
         width: 50px;
     }
-
     #form-filter-search-icon {
         display: block;
         font-size: 20px;
     }
-
     #form-filter-search-txt {
         display: none;
     }
-
     #filters-list ul {
         margin-right: 0;
     }
-
     #filters-list li {
-       margin-bottom: 10px;
-       margin-right: 16px;
+        margin-bottom: 10px;
+        margin-right: 16px;
     }
-
     .infoFather {
         margin-top: 0;
     }
-
     .blocHebandPopu {
         flex-direction: column-reverse;
     }
-
     .popucards {
         width: 100%;
         box-sizing: border-box;
         border-radius: 0;
         padding: 0px 20px;
     }
-
     .blocHebandPopu h2 {
-       font-size: 20px;
+        font-size: 20px;
     }
-
     .descripPopu h3 {
         font-size: 15px;
     }
-
     .descripPopu p {
         font-size: 13px;
     }
-
     .hebcards {
         margin-right: 0;
         background-color: white;
         padding: 0px 20px;
     }
-
     .hebcards img {
         height: 100px;
     }
-
     .blocImgHeb {
         height: auto;
         width: 100%;
         margin: 12px 3px;
     }
-
     .blocHeb h3 {
         font-size: 15px;
     }
-
     .blocHeb p {
         font-size: 14px;
     }
-
     .blocHeb i {
         font-size: 13px;
     }
-
     .activitycards {
         margin-left: 0px;
     }
-
     .activitycards h2 {
-       font-size: 20px;
-       padding-left: 21px;
-       margin-bottom: 18px;
-       margin-top: -20px;
+        font-size: 20px;
+        padding-left: 21px;
+        margin-bottom: 18px;
+        margin-top: -20px;
     }
-
     ul.blocActi {
         flex-direction: column;
         padding: 0 20px;
     }
-
     .blocActi li {
         width: 100%;
         margin: 10px 0;
     }
-
-
     .blocActi h3 {
         font-size: 16px;
         text-align: left;
     }
-
-    .bloc2ImgActi img, .activite-img1, .activite-img2, .activite-img3, .activite-img4 {
+    .bloc2ImgActi img,
+    .activite-img1,
+    .activite-img2,
+    .activite-img3,
+    .activite-img4 {
         height: 120px;
     }
-
     .bloc2ImgActi h3 {
         height: auto;
         padding-left: 10px;
         width: auto;
         align-self: flex-start;
     }
-
     .cubeAtivity3456 h3 {
         text-align: left;
         padding-left: 10px;
     }
-
     .flexColumnCenter {
         justify-content: flex-start;
         align-items: flex-start;
     }
-
     .footer {
         height: auto;
         margin-top: -35px;
         padding-bottom: 30px;
     }
-    
     .betweenfooter {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
     }
-
     .columnfooter h3 {
-       font-weight: bold;
-       font-size: 16px;
-       margin-top: 35px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 35px;
     }
-
     .columnfooter a {
         font-size: 15px;
         color: black;
     }
 }
+
+
 /*Format tablette*/
+
 @media all and (min-width: 569px) and (max-width: 1240px) {
+    #search-section h2,
+    #search-section p {
+        text-align: center;
+    }
+    #search-with-location-form {
+        width: 90%;
+        margin: auto;
+    }
+    #search-with-location-form input {
+        flex: 1;
+    }
+    #filters-list {
+        flex-direction: column;
+    }
+    #filters-list h3 {
+        justify-content: center;
+        flex: 1;
+    }
+    #filters-list ul {
+        width: 100%;
+    }
+    #filters-list li {
+        width: 90%;
+        margin: 10px auto;
+    }
+    #filters-result-text {
+        width: 90%;
+        margin: auto;
+    }
     .blocHebandPopu {
         flex-direction: column-reverse;
         width: 100%;
-        }
-
+    }
     .popucards {
         flex: none;
-        width: 90%;   
+        width: 90%;
     }
-    
     .hebcards {
         flex: none;
         width: 90%;
         margin-right: 0;
         margin-top: 50px;
     }
-    
     .blocHebandPopu h2 {
-    padding-left: 12px;
+        padding-left: 12px;
     }
-
     .descripPopuEtoile {
-       padding-right: 13px;
+        padding-right: 13px;
     }
-
-    .activitycards {
-       max-height: auto;
-    }
-
     .blocHeb {
-       flex-direction: column;
+        flex-direction: column;
     }
-
     .blocImgHeb {
         width: 100%;
         height: auto;
         margin: 15px 3px;
     }
-
-       .hebcards img {
+    .hebcards img {
         height: 200px;
         width: 100%;
     }
-
     .activitycards {
         width: 100%;
         height: auto;
         margin-left: 0;
     }
-
     .activitycards h2 {
         padding-bottom: 0px;
         position: relative;
-        top: 7px;
-        left: 40px;
+        width: 90%;
+        margin: 10px auto;
     }
-
     ul.blocActi {
         flex-direction: column;
         width: 100%;
     }
-
     .blocActi li {
         width: 90%;
         margin-bottom: 20px;
     }
-
     .bloc2ImgActi img {
         height: 230px;
     }
-
-    .activite-img1, .activite-img2, .activite-img3, .activite-img4 {
+    .activite-img1,
+    .activite-img2,
+    .activite-img3,
+    .activite-img4 {
         height: 230px;
+    }
+    .betweenfooter {
+        flex-direction: column;
+    }
+    .columnfooter {
+        width: 100%;
+        text-align: center;
+    }
+    .columnfooter h3 {
+        justify-content: center;
     }
 }
